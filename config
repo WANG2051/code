@@ -1,0 +1,14 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@github.com:WANG2051/code.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	pushurl = git@github.com:WANG2051/code.git
+	puttykeyfile = comment
+[user]
+	email = your email
+	name = your name
